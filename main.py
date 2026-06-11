@@ -49,11 +49,7 @@ import uvicorn
 # ─────────────────────────────────────────────
 #  DATABASE ULANISH
 # ─────────────────────────────────────────────
-DATABASE_URL = (
-    "postgresql://neondb_owner:npg_VDSncpbaeN16"
-    "@ep-noisy-dream-aqm9uc86-pooler.c-8.us-east-1.aws.neon.tech"
-    "/neondb?sslmode=require&channel_binding=require"
-)
+DATABASE_URL = "postgresql://neondb_owner:npg_WufTskr4ZBm1@ep-blue-bread-apgdj3o2-pooler.c-7.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
 
 engine = create_engine(
     DATABASE_URL,
